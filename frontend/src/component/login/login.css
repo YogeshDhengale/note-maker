@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+span, button {
+    cursor: pointer;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-color: #1c8ef9;
+}
+
+#remember{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+@media (width >= 500px){
+    body{
+        padding: 0;
+    }
+}
+
+.login-card{
+    width: 100%;
+    padding: 50px 30px 44px;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+@media (width >= 500px){
+    .login-card{
+        margin: 0;
+        width: 400px;
+    }
+}
+
+.login-card > h2{
+    margin: 0, 0, 12px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.login-form{
+    width: 100%;
+    margin: 0;
+    display: grid;
+    gap: 15px;
+}
+
+.input{
+    display: grid;
+    gap: 5px
+}
+
+.input> input{
+    width: 100%;
+    height: 38px;
+    padding: 0 16px;
+    border-radius: 4px;
+    border: 2px solid #ebebeb;
+}
+
+button{
+    width: 100%;
+    height: 38px;
+    padding: 0 16px;
+    border-radius: 4px; 
+    background-color: #1c8ef9;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    color: #1c8ef9;
+}

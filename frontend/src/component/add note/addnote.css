@@ -1,0 +1,46 @@
+.addNote{
+    height: 100%;
+    display: grid;
+    place-items: center;
+    margin: 40px;
+}
+
+.allcontent{
+    width: 60%;
+    height: 100%;
+}
+
+.title{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#t{
+    margin-top: 10px;
+    height: 25px;
+    width: 100%;
+    padding: 0 14px;
+}
+
+.content{
+    width: 100%;
+    height: 500px;
+}
+
+#c{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80%;
+}
+
+button{
+    width: 100%;
+    height: 38px;
+    padding: 0 16px;
+    border-radius: 4px; 
+    background-color: #1c8ef9;
+    outline: none;
+    border: none;
+    color: white;
+}
